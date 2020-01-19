@@ -7,6 +7,9 @@
 main {
     width: 100vw;
     height: 100vh;
+    background-image: url(https://www.mytripmap.it/wp-content/uploads/2017/03/francia-945x385.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -39,4 +42,29 @@ main {
 
 .three {
     background-image: url(https://i.ytimg.com/vi/z0zirqul2bA/hqdefault.jpg);
+}
+
+.nome {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nome:hover {
+    display: none;
+}
+
+.overlay:hover {
+    display: none;
+
 }
